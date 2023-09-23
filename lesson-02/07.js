@@ -1,4 +1,4 @@
-et passporNottMarried = {
+let passporNottMarried = {
     name: "Petr",
     surname: "Petrov",
     address: {
