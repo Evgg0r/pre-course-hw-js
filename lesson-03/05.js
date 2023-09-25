@@ -18,7 +18,6 @@ const users2 = [
         address: '789 Oak St'
     },
 ];
-    
 const newObj = {
     id: 4,
     user: 'Ivan',
@@ -26,5 +25,4 @@ const newObj = {
     address: 'Unknown'
 }
 
-console.log([...users2, {...newObj}]);
-console.log(users2(1));
+console.log([{...newObj}, ...users2]);
