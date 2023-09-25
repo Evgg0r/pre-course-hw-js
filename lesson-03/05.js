@@ -18,6 +18,7 @@ const users2 = [
         address: '789 Oak St'
     },
 ];
+
 const newObj = {
     id: 4,
     user: 'Ivan',
@@ -25,4 +26,5 @@ const newObj = {
     address: 'Unknown'
 }
 
-console.log([{...newObj}, ...users2]);
+const mergedArray = [...users2, newObj];
+console.log(mergedArray);
